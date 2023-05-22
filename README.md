@@ -154,40 +154,40 @@ Font: https://www.ceos3c.com/sysadmin/create-generalized-windows-10-image-deploy
 
 ## 3. Capturar desde el client un Ubuntu
 
+
 Primer crearem la màquina de la qual farem la imatge. Hem de tenir en compte que totes les instal·lacions d'aquesta imatge estaran basades en aquesta màquina així que l'hem de configurar i equipar amb apps tenint això en compte.
 En el nostre cas també afegirem alguna cosa extra per a que a les captures de pantalla es vegi que la instal·lació per FOG és genuïna
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/b8bbd71e-dce9-4f7d-b56b-a15100978e4c)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/b864ec90-bae5-40db-8413-4c13efd70c26)
 
 Un cop fet això tanquem la màquina i la tornem a engegar posant a l'ordre d'engegada la Xarxa en primer lloc per a connectar-nos al servidor FOG
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/65347fe0-d8c9-431a-a5cb-ef6356f26213)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/8a0b8a66-030c-4c85-9cb7-15a63e6f289a)
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/f7a0d467-ae1d-490c-bb84-dd3c4efed93b)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/98d0b044-c664-4e30-9f6d-b5af5ec38e73)
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/190d8688-528c-473e-9b96-46d3fd6132e1)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/8566f654-afd5-4af3-92d5-e3e99338425b)
 
 I posem la ip del servidor.
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/6dec9ea0-8664-4f40-b6ca-88494586d9f7)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/de4014c8-454c-4a85-bb99-f3d40c058c41)
 
 Ara seleccionem la opció de "Perform Full Host Registration and Inventory" per a que la imatge quedi capturada al servidor FOG.
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/4bddb9f2-3a7e-4906-ae23-4e1bdec16832)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/fbddefe8-c1e7-4a8a-a7d3-c5edbe03ad17)
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/eeeadcd7-b5ad-400a-8302-4299ffdf3db0)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/bd38c1f0-7b35-480c-82b6-cf49c46efee6)
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/9d94d718-44e8-4c9f-ac31-452f96f7e947)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/942a6118-a199-491c-a312-d20b506004f0)
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/ac902c70-89ed-4302-8349-d2e5784fa539)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/97736c80-0e9a-4611-987d-2b185c242541)
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/869913c1-15b7-4fe4-b97e-88640aada8b9)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/33c698e4-f5c4-4deb-b946-e3f2293a7948)
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/985e5525-c779-404f-a9ad-4757a4171bc0)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/764c1d0c-a54a-4884-8954-a7d30ba5a5fc)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/36f8e1a8-c18a-4fbf-b28e-57384d21d33e)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/e2fd5e1d-748c-466d-9c7a-ae79e0f40bf3)
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/a98a874d-32b8-4f22-83fa-2f41863e8707)
-
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/5e2bc31e-09fc-4e59-9730-781ef33c4b9a)
 
 Ara hauria d'estar preparada per a instal·lar a altres màquines.
 
@@ -195,24 +195,24 @@ Ara hauria d'estar preparada per a instal·lar a altres màquines.
 
 Un cop capturada la imatge només hem de crear una nova màquina virtual d'ubuntu. En aquest cas no posarem cap imatge amb la que instal·lar el SO ja que aquest vindra del servidor FOG. Per tant a paràmetres tornem a posar la Xarxa al principi del "boot":
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/f411f05e-9ad0-41e2-b35e-13d5d4fd0e74)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/ab6dfdb2-2b23-4a62-8b50-aadce44c097e)
+
 
 Llavors fem el "login" al servidor:
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/c0a304d7-06ee-4a0e-8d2c-0086084ccc56)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/6e0d0936-dac5-4e1d-812c-5a9b1ae33561)
 
 Triem la opció de "Deploy" al menú i elegim la imatge que necessitem:
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/9ebebcca-1792-4cbd-80d7-7aca223509a3)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/64ebf59f-2d14-4e8b-9063-66ebabb2efb7)
 
 I la instal·lació començarà:
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/cb1f1edb-4097-478a-baf1-dd45fc0bdfd0)
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/c18eb68e-e1b6-4017-b5c0-c6a8a5e2bfc7)
 
 Un cop acabada tornem als paràmetres de la màquina, desactivem Xarxa del "boot sequence" i la tornem a engegar per a comprovar que la instal·lació ha estat un èxit:
 
-![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/c7e4a348-8645-4129-ba1a-a89643c1e205)
-
+![image](https://github.com/NorbertFalco/MP01-Documentacio/assets/114875463/b3baeb99-5ddc-4257-90b0-4150c64fe17a)
 
 ## 5. Instalar imatge Windows
 
